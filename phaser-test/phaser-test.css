@@ -1,0 +1,53 @@
+/* CSS declarations go here */
+
+
+  body {
+    width:100px;
+    height:20px;
+    background:#d4eafc;
+    animation:myfirst 10s;
+  -moz-animation:myfirst 10s infinite; /* Firefox */
+-webkit-animation:myfirst 10s infinite; /* Safari and Chrome */
+  }
+
+
+  @-moz-keyframes myfirst {
+
+
+0%   {background:#cfe0ff;}
+8%   {background:#4ba0f3;}
+16%   {background:#a7a6f2;}
+24%   {background:#c69ecb;}
+32%   {background:#4ba0f3;}
+40%  {background:#d0714c;}
+48%  {background:#1f151b;} /* centre */
+56%  {background:#cfe0ff;}
+64%  {background:#4ba0f3;;}
+72%  {background:#a7a6f2;}
+80%  {background:#c69ecb;}
+100%   {background:#d0714c;}
+}
+ 
+    @-webkit-keyframes myfirst {
+0%   {background:#cfe0ff;}
+8%   {background:#4ba0f3;}
+16%   {background:#a7a6f2;}
+24%   {background:#c69ecb;}
+32%   {background:#4ba0f3;}
+40%  {background:#d0714c;}
+48%  {background:#1f151b;} /* centre */
+56%  {background:#cfe0ff;}
+64%  {background:#4ba0f3;;}
+72%  {background:#a7a6f2;}
+80%  {background:#c69ecb;}
+100%   {background:#d0714c;}
+}
+ 
+
+
+h1 {
+	margin: 50px;
+
+	color: #53888A;
+	font-family: "Century Gothic", "Futura", "Avenir", Sans-serif;
+}
